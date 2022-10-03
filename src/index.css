@@ -1,0 +1,118 @@
+/* fuente de google fonts Quicksand */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+
+body {
+  font-size: 1em;
+}
+
+/* selector universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* comienza header encabezado */
+.encabezado {
+  background-color: #ef5350;
+  display: flex;
+  justify-content: center;
+}
+
+.encabezado img {
+  width: 100%;
+  max-width: 150px;
+}
+/* cierre header encabezado */
+
+/* titulo lista de pokemones */
+.pokemones {
+  min-height: 100vh;
+}
+.pokemones h2 {
+  padding: 10px 0;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #0074eced;
+  color: #fff;
+}
+
+.pokemones ul {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* cierre titulo lista de pokemones */
+
+/* comienza input y botón */
+.campoInput {
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.campoInput .nombrePokemones {
+  width: 100%;
+  padding-top: 14px;
+  padding-bottom: 12px;
+  padding-left: 3px;
+  outline: none;
+  border: none;
+  background-color: rgb(227, 227, 227);
+}
+
+.nombrePokemones::placeholder {
+  color:#263238;
+}
+
+.campoInput select {
+  width: 20%;
+  padding-top: 14px;
+  padding-bottom: 12px;
+  padding-left: 3px;
+  border: none;
+  outline: none;
+  background-color: #0074eced;
+  color: #fff;
+}
+
+.campoInput option {
+  color:#263238;
+}
+
+.campoInput button {
+  width: 10%;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  border-radius:0 10px 10px 0;
+  border: none;
+  background-color: #0074eced;
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.campoInput button:hover {
+  background-color: #0151a5ed;
+}
+/* cierre input y botón */
+
+/* comienza footer pie de página */
+.pieDePagina {
+  background-color: #ef5350;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.pieDePagina small {
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+}
+/* cierre footer pie de página */
+
+
+
+
+
